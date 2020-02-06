@@ -1,9 +1,10 @@
-package com.dataart.edu.springripper;
+package com.dataart.edu.springripper.lifecycle;
 
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
+@DeprecatedClass(newImple = T1000.class)
 @Profiling
 @Component
 public class TerminatorQuoter implements Quoter {

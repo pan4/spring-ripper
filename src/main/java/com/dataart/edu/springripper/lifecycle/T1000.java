@@ -1,4 +1,4 @@
-package com.dataart.edu.springripper;
+package com.dataart.edu.springripper.lifecycle;
 
 public class T1000 extends TerminatorQuoter {
     @Override

@@ -1,4 +1,4 @@
-package com.dataart.edu.springripper;
+package com.dataart.edu.springripper.lifecycle;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanDefinition;
@@ -24,7 +24,7 @@ public class PostProxyInvokerContextListener {
             BeanDefinition beanDefinition = factory.getBeanDefinition(name);
             String originalClassName = beanDefinition.getBeanClassName();
             if(originalClassName == null){
-                return;
+                continue;
             }
             try {
                 Class<?> originalClass = Class.forName(originalClassName);

@@ -1,4 +1,4 @@
-package com.dataart.edu.springripper;
+package com.dataart.edu.springripper.lifecycle;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

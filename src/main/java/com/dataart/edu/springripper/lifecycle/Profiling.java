@@ -1,4 +1,4 @@
-package com.dataart.edu.springripper;
+package com.dataart.edu.springripper.lifecycle;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
